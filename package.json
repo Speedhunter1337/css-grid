@@ -7,12 +7,17 @@
     "start": "run-script-os",
     "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\"",
     "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to FirefoxDeveloperEdition",
-    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'Brave Browser'"
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'Google Chrome'"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
-    "run-script-os": "^1.1.5"
+    "postcss-html": "^1.4.1",
+    "run-script-os": "^1.1.5",
+    "stylelint": "^14.9.1",
+    "stylelint-config-html": "^1.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^26.0.0"
   }
 }
