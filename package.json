@@ -13,6 +13,11 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.13",
-    "run-script-os": "^1.1.5"
+    "postcss-html": "^1.4.1",
+    "run-script-os": "^1.1.5",
+    "stylelint": "^14.9.1",
+    "stylelint-config-html": "^1.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^26.0.0"
   }
 }
